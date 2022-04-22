@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Family Map</string>
+
+    <!-- Field Names -->
+    <string name="serverHost">Server Host:</string>
+    <string name="serverPort">Server Port:</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="firstName">First Name:</string>
+    <string name="lastName">Last Name:</string>
+    <string name="emailAddress">Email:</string>
+    <string name="gender">Gender:</string>
+    <string name="radioMale">Male:</string>
+    <string name="radioFemale">Female:</string>
+    <string name="settingsHeight">50dp:</string>
+
+    <!-- Button Names -->
+    <string name="sign_in_button">Sign In</string>
+    <string name="registerButton">Register</string>
+    <string name="searchMenuItem">Search</string>
+    <string name="settingsMenuItem">Settings</string>
+
+    <!-- Activity Names -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_person">Personal Information</string>
+    <string name="title_activity_search">Search</string>
+
+    <!-- Person Activity-->
+    <string name="pFirstName">First Name</string>
+    <string name="pLastName">Last Name</string>
+    <string name="pGender">Gender</string>
+    <string name="lifeEventsTitle">Life Events</string>
+    <string name="familyTitle">Family</string>
+    <string name="eventDetails">Event Details Here</string>
+    <string name="associatedName">Associated Name Here</string>
+
+    <!-- API KEY -->
+    <string name="maps_api_key"></string>
+
+
+    <!-- I DON'T KNOW WHICH OR IF ANY OF THESE ARE USED BUT I KNOW SOME ARE SO I HAVEN'T DELETED THEM -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+    <!-- Messages Preferences -->
+    <string name="signature_title">Dallin Stewart</string>
+    <string name="reply_title">Default reply action</string>
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <!--    <string name="first_fragment_label">First Fragment</string>-->
+    <!--    <string name="second_fragment_label">Second Fragment</string>-->
+    <!--    <string name="next">Next</string>-->
+    <!--    <string name="previous">Previous</string>-->
+    <!--    <string name="hello_first_fragment">Hello first fragment</string>-->
+    <!--    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>-->
+    <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+
+</resources>

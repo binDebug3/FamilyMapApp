@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:parentActivityName=".view.MainActivity"
+    tools:context="activity.SettingsActivity">
+
+    <TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleLifeStoryLines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Life Story Lines"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textLifeStoryLines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="show life story lines"
+                android:textAllCaps="true" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/toggleLifeStoryLines"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_span="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleFamilyTreeLines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Family Tree Lines"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textFamilyTreeLines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="show family tree lines"
+                android:textAllCaps="true" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/toggleFamilyTreeLines"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" />
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_span="1"
+            android:orientation="vertical"
+            android:layout_marginStart="0dp">
+
+            <TextView
+                android:id="@+id/titleSpouseLines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Spouse Lines" />
+
+            <TextView
+                android:id="@+id/textSpouseLines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="show spouse lines" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/toggleSpouseLines"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_span="1"
+            android:orientation="vertical"
+            android:layout_marginStart="0dp">
+
+            <TextView
+                android:id="@+id/titleFatherSide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Father's Side" />
+
+            <TextView
+                android:id="@+id/textFatherSide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="filter by father's side of the family" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/toggleFatherSide"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_span="1"
+            android:orientation="vertical"
+            android:layout_marginStart="0dp">
+
+            <TextView
+                android:id="@+id/titleMotherSide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Mother's Side" />
+
+            <TextView
+                android:id="@+id/textMotherSide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="filter by mother's side of the family" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/toggleMotherSide"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_span="1"
+            android:orientation="vertical"
+            android:layout_marginStart="0dp">
+
+            <TextView
+                android:id="@+id/titleMaleEvents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Male Events" />
+
+            <TextView
+                android:id="@+id/textMaleEvents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="filter events based on gender" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/toggleMaleEvents"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_span="1"
+            android:orientation="vertical"
+            android:layout_marginStart="0dp">
+
+            <TextView
+                android:id="@+id/titleFemaleEvents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Female Events" />
+
+            <TextView
+                android:id="@+id/textFemaleEvents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="filter events based on gender" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/toggleFemaleEvents"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_span="1"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:layout_marginStart="0dp">
+
+            <TextView
+                android:id="@+id/titleLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Logout" />
+
+            <TextView
+                android:id="@+id/textLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="return to login screen" />
+        </LinearLayout>
+    </TableRow>
+</TableLayout>
