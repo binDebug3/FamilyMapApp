@@ -1,5 +1,5 @@
 # FamilyMap
-An Android application that provides a geographical view into your family history
+An Android application that provides a geographical view into your family history by Dallin Stewart,
 
 Acknowledgements:
 
